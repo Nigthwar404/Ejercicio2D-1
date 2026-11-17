@@ -1,0 +1,162 @@
+{
+    "version": 1,
+    "name": "GameControll",
+    "maps": [
+        {
+            "name": "World",
+            "id": "7880b781-ddd7-41cc-a6c4-8da23dee9ba9",
+            "actions": [
+                {
+                    "name": "Foward",
+                    "type": "Button",
+                    "id": "6a0e1021-c893-4e6b-a12d-a086378b8c31",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "a0f707dc-c43a-4ada-b2ed-9c832503ced8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Rigth",
+                    "type": "Button",
+                    "id": "11af422b-94a6-4042-aef3-ed93cea631f8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "492d9e31-a08f-414e-851a-f7de88dffa6b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "HatSwap",
+                    "type": "Button",
+                    "id": "f89f6a97-0ece-46b0-b75e-6bc138381493",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Vanish",
+                    "type": "Button",
+                    "id": "8095c25d-f9be-4f30-a2ce-17019d2e2e59",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Salir",
+                    "type": "Button",
+                    "id": "6612e134-ae6b-48d8-9e20-5db399b02d56",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4949c755-25ac-4215-8f2a-8a42db5b3088",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Foward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "287c8dcd-0b94-4f3a-ac77-2ac7f0d8e7f3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c4abcb0-515f-4027-ab6c-bd3295062508",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rigth",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56f125f5-558d-4f28-8b9b-440cf4ce1b05",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a69a7964-1453-46f9-99e0-ed27a8621d88",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HatSwap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e64d9f05-8ac3-4c13-b108-d191ab036cfc",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Vanish",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6e8cb08-86da-4c89-b610-19bfb5b83d5b",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Salir",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

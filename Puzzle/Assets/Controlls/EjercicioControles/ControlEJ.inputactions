@@ -1,0 +1,99 @@
+{
+    "version": 1,
+    "name": "ControlEJ",
+    "maps": [
+        {
+            "name": "World",
+            "id": "3c15ac54-d2bd-4904-887c-8fa4330634d9",
+            "actions": [
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "eb9de133-7079-4544-9a79-0ece105aeaf7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "efb4ea30-51ca-4714-810f-44f8d8d367f4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Boost",
+                    "type": "Button",
+                    "id": "dd64f2c3-b293-4e4a-a21d-4478a2b1c1e0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Reverse",
+                    "type": "Button",
+                    "id": "5ea0bb19-f4cb-4cfe-9ef4-c9b839fd8c8c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b09e5c52-86de-442d-9d77-a142e981937f",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "387406d2-c10f-4823-9291-6b4b034f21b4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0feecb7-29b6-4eeb-8609-90cbcc77a1e8",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73afbe35-cc62-46cc-9fc0-15bb2a7d66e6",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
